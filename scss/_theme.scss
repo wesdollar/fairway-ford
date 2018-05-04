@@ -1,0 +1,289 @@
+p, li {
+  line-height: 1.6em;
+}
+
+body {
+  background: $alternate-bg;
+  color: $secondary;
+}
+
+#top-bar {
+  background-color: $secondary;
+  color: $white;
+
+  $ptb: 8px;
+  padding-top: $ptb;
+  padding-bottom: $ptb;
+
+  h1 {
+    font-size: 0.7em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    margin-left: 14px;
+  }
+
+  @include media-breakpoint-only(xs) {
+    text-align: center;
+
+    h1 {
+      margin-left: 0;
+    }
+  }
+}
+
+#header {
+  background-color: rgba($blue, 0.9);
+  color: $white;
+  padding: 12px 0;
+  //border-top: 4px solid $secondary;
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  .logo {
+    width: 275px;
+  }
+
+  #header-contact {
+    padding-top: 6px;
+
+    @include media-breakpoint-down(sm) {
+      margin-left: 9px;
+    }
+  }
+}
+
+#hero {
+  height: 550+175px;
+  width: 100%;
+  background: url('../img/bg-ford-f-150-lariat.jpg') no-repeat;
+
+  @include media-breakpoint-down(xs) {
+    background-size: auto !important;
+    background-position: -1385px -402px !important;
+  }
+}
+
+#page-smart #hero {
+  background: url('../img/bg-ford-f-150-smart.jpg') no-repeat;
+  //background-size: cover;
+
+  @include media-breakpoint-only(xs) {
+
+    background-position: -352px -402px !important;
+  }
+}
+
+.parallax {
+  position: relative;
+  overflow: hidden;
+}
+
+#action-buttons {
+
+  $tbp: $gutter / 2;
+
+  padding-top: $tbp;
+  padding-bottom: $tbp;
+  background: rgba($alternate-bg, 0.5);
+  position: absolute;
+  bottom: 0;
+
+  .btn:not(:last-of-type) {
+    margin-right: 20px;
+  }
+}
+
+.feature-box {
+  padding: $gutter;
+  padding-bottom: 0;
+
+  h2 {
+    color: $primary;
+    text-transform: uppercase;
+
+    span {
+      display: block;
+      font-size: 1.2rem;
+      color: $secondary;
+    }
+  }
+
+  ul {
+    padding-left: 20px;
+    margin-top: $gutter / 2;
+  }
+
+  .btn {
+    margin-top: $gutter / 2;
+  }
+}
+
+.feature-image {
+  height: 510px;
+}
+
+#feature-smart {
+
+  .feature-image {
+    background: url('../img/bg-split-screen.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+#feature-tough {
+
+  .feature-image {
+    background: url('../img/bg-f-150-alluminum-body.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+#feature-capability {
+
+  .feature-image {
+    background: url('../img/bg-f-150-interior-back.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+#feature-power{
+
+  .feature-image {
+    background: url('../img/bg-f-150-rough-terrain.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
+small {
+  color: lighten($text-muted, 35);
+  font-size: 0.6rem;
+}
+
+#f-150-intro {
+  background: url('../img/bg-f-150-small-town-streets.jpg') no-repeat;
+
+  @include media-breakpoint-down(xs) {
+    background: none !important;
+  }
+
+  @include media-breakpoint-down(xs) {
+
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.full-width-bg-img {
+  width: 100%;
+  padding: $section-gutter 0;
+
+  @include media-breakpoint-down(xs) {
+
+    background-size: auto !important;
+    background-position: center center !important;
+  }
+}
+
+#f-150-video {
+  width: 100%;
+  padding: $section-gutter 0;
+  background: $light-blue-bg;
+
+  iframe {
+    max-width: 100%;
+  }
+
+  @include media-breakpoint-down(xs) {
+
+    padding: $gutter 0;
+  }
+}
+
+.zoom {
+  transition: all 300ms ease;
+}
+
+.zoom:hover {
+  transform: scale(1.3)
+}
+
+#grid-images {
+
+  div {
+
+    @extend .overflow-hidden;
+  }
+
+  div {
+
+    img {
+      opacity: 0.8;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.full-width {
+  background: $white;
+}
+
+.lead-in {
+  padding-top: $section-gutter;
+  padding-bottom: $section-gutter;
+}
+
+#page-smart .lead-in {
+  background: url("../img/bg-f-150-rough-terrain.jpg") no-repeat center center;
+  background-size: cover;
+
+  @include media-breakpoint-only(xs) {
+
+    background-size: auto !important;
+    background-position: center center !important;
+  }
+}
+
+.bg-overlay {
+  //text-align: center;
+  padding: $ptb $gutter;
+  background: rgba($primary, 0.9);
+  color: $white;
+
+  @extend .box-shadow;
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: $white;
+    text-decoration: underline;
+
+    &:hover, &:active {
+      color: $secondary;
+    }
+  }
+}
+
+@include media-breakpoint-down(xs) {
+
+  .bg-overlay {
+    text-align: left;
+
+    $lrp: 30px !important;
+    padding-left: $lrp;
+    padding-right: $lrp;
+  }
+}
+
+#page-smart {
+
+  h2 {
+    text-transform: uppercase;
+  }
+}
