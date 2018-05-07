@@ -78,9 +78,9 @@ $fordF150InventoryURL = 'https://www.fairwayfordaugusta.com/new-inventory/index.
 
                 <div class="row">
                     <div class="col-12">
-                        <h1>
+                        <h2>
                             Build Ford Tough. Forever.
-                        </h1>
+                        </h2>
                         <p class="half-gutter-top">
                             The 2018 Ford F-150 is made to be the best, which is why it has so many awards to its name. Every aspect of the F-150 is carefully crafted to deliver a truck that can work just as hard as you. If it's power, versatility, safety, and comfort that you're looking for, look no further than the 2018 Ford F-150. Schedule your test-drive today at Augusta's leading Ford dealer,
                             <a href="//www.fairwayfordaugusta.com">Fairway Ford</a>.

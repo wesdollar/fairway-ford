@@ -78,9 +78,9 @@ $fordF150InventoryURL = 'https://www.fairwayfordaugusta.com/new-inventory/index.
 
                 <div class="row">
                     <div class="col-12">
-                        <h1>
+                        <h2>
                             This Ford F-150 Works Smarter &amp; Harder
-                        </h1>
+                        </h2>
                         <p class="half-gutter-top">
                             The engineers at Ford went to great lengths to make the 2018 Ford F-150 the smartest and easiest F-150 to operate yet. Controls and truck-vitals are at your fingertips whether you're in the cab or away from your truck thanks to SYNC Connect&reg; powered by FordPass&trade;. Smart technologies cover this Ford F-150 from bumper to bumper, inside and out, to make driving easier, safer, and way more fun.
                         </p>
