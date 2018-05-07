@@ -1,17 +1,23 @@
 <?php
 
-class Helpers {
+//require_once($_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php');
+//
+//$dotenv = new Dotenv\Dotenv(__DIR__);
+//$dotenv->load();
 
-    private $baseHref = '//fairwayford.local:8080/';
+class Helpers {
 
     public function url($str) {
 
-        return $this->baseHref . $str;
+//        return getenv('BASE_URL') . $str;
+
+        return '//fairwayford.local:8080/' . $str;
     }
 
     public function root($str) {
 
         return $_SERVER['DOCUMENT_ROOT'] . '/' . $str;
+//        return $_SERVER['DOCUMENT_ROOT'] . getenv('ROOT_DIR') . $str;
     }
 
     public function isOdd($i) {

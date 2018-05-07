@@ -287,3 +287,8 @@ small {
     text-transform: uppercase;
   }
 }
+
+.tel-link a {
+  color: $white !important;
+  text-decoration: underline;
+}

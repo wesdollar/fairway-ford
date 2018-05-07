@@ -16,7 +16,7 @@ $fordF150InventoryURL = 'https://www.fairwayfordaugusta.com/new-inventory/index.
     <!--<link rel="icon" href="../../../../favicon.ico">-->
 
     <title>Ford F-150 Augusta, GA | Fairway Ford, Evans</title>
-    <meta name="description" content="">
+    <meta name="description" content="The 2018 Ford F-150 is the standard by which all other trucks are measured. Fairway Ford in Evans is proud to serve Augusta, GA, and the entire CSRA. Come see our large inventory and schedule your test drive today. The 2018 Ford F-150 is the smartest, toughest, most capable, and most powerful Ford F-150 built yet.">
 
     <link href="<?= $helpers->url('css/styles.css') ?>" rel="stylesheet">
 </head>
@@ -33,7 +33,7 @@ $fordF150InventoryURL = 'https://www.fairwayfordaugusta.com/new-inventory/index.
     </div>
 </div>
 
-<header id="hero" class="parallax" data-parallaxie='{ "offset": -290 }'>
+<header id="hero" class="parallax" data-parallaxie='{ "offset": -100 }'>
 
     <div id="header">
         <div class="container">
@@ -50,7 +50,7 @@ $fordF150InventoryURL = 'https://www.fairwayfordaugusta.com/new-inventory/index.
                     <p>
                         4333 Washington Rd <br>
                         Evans, GA 30809 <br>
-                        <span>(706) 854-9200</span>
+                        <span class="tel-link">(706) 854-9200</span>
                     </p>
                 </div>
             </div>

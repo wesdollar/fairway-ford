@@ -1,4 +1,4 @@
-<section class="full-width-bg-img parallax " id="f-150-intro" data-parallaxie='{ "offset": -320 }'>
+<section class="full-width-bg-img parallax " id="f-150-intro" data-parallaxie='{ "offset": -220 }'>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-sm-12 col-md-8 bg-overlay">

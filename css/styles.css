@@ -6569,3 +6569,7 @@ small {
 
 #page-smart h2 {
   text-transform: uppercase; }
+
+.tel-link a {
+  color: #ffffff !important;
+  text-decoration: underline; }

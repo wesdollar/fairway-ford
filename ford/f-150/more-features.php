@@ -1,6 +1,6 @@
 <?php
 
-require_once($_SERVER['DOCUMENT_ROOT'] . '/Classes/Helpers.php');
+require_once('../../Classes/Helpers.php');
 $helpers = new Helpers();
 
 $fordF150InventoryURL = 'https://www.fairwayfordaugusta.com/new-inventory/index.htm?gvModel=F-150';
@@ -16,7 +16,7 @@ $fordF150InventoryURL = 'https://www.fairwayfordaugusta.com/new-inventory/index.
     <!--<link rel="icon" href="../../../../favicon.ico">-->
 
     <title>Ford F-150 Augusta, GA | Fairway Ford, Evans</title>
-    <meta name="description" content="">
+    <meta name="description" content="The 2018 Ford F-150 boasts best in class payload &amp; tow ratings and is built to be the strongest Ford F-150 yet. It can tow more, haul more, and do it all while burning less gas thanks to its lighter but stronger high-strength, military-grade aluminum alloy body. Visit Fairway Ford in Evans, proudly serving Augusta, GA, and the entire CSRA, to test drive your F-150 today!">
 
     <link href="<?= $helpers->url('css/styles.css') ?>" rel="stylesheet">
 </head>
@@ -50,7 +50,7 @@ $fordF150InventoryURL = 'https://www.fairwayfordaugusta.com/new-inventory/index.
                     <p>
                         4333 Washington Rd <br>
                         Evans, GA 30809 <br>
-                        <span>(706) 854-9200</span>
+                        <span class="tel-link">(706) 854-9200</span>
                     </p>
                 </div>
             </div>
