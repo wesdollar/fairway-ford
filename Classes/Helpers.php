@@ -11,7 +11,7 @@ class Helpers {
 
 //        return getenv('BASE_URL') . $str;
 
-        return '//fairwayford.local:8080/' . $str;
+        return '//fordf150augusta.com/' . $str;
     }
 
     public function root($str) {

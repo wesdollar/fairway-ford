@@ -15,7 +15,7 @@ $fordF150InventoryURL = 'https://www.fairwayfordaugusta.com/new-inventory/index.
     <meta name="author" content="TranterGrey">
     <!--<link rel="icon" href="../../../../favicon.ico">-->
 
-    <title>Ford F-150 Augusta, GA | Fairway Ford, Evans</title>
+    <title>2018 Ford F-150 Features | Fairway Ford, Augusta</title>
     <meta name="description" content="The 2018 Ford F-150 boasts best in class payload &amp; tow ratings and is built to be the strongest Ford F-150 yet. It can tow more, haul more, and do it all while burning less gas thanks to its lighter but stronger high-strength, military-grade aluminum alloy body. Visit Fairway Ford in Evans, proudly serving Augusta, GA, and the entire CSRA, to test drive your F-150 today!">
 
     <link href="<?= $helpers->url('css/styles.css') ?>" rel="stylesheet">

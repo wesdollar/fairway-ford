@@ -15,7 +15,7 @@ $fordF150InventoryURL = 'https://www.fairwayfordaugusta.com/new-inventory/index.
     <meta name="author" content="TranterGrey">
     <!--<link rel="icon" href="../../../../favicon.ico">-->
 
-    <title>Ford F-150 Augusta, GA | Fairway Ford, Evans</title>
+    <title>2018 Ford F-150 Smart Features | Fairway Ford, Evans</title>
     <meta name="description" content="The 2018 Ford F-150 is the smartest F-150 yet. Smart technologies cover this Ford F-150 from bumper to bumper, inside and out, to make driving easier, safer, and way more fun. Highlights include 8 in. LCD productivity screen, SYNC powered by FordPass, 360 degree camera, pre-collision assist &amp; lane-keeping system. Visit Fairway Ford in Evans, proudly serving Augusta, GA, and the entire CSRA, to test drive the 2018 Ford F-150.">
 
     <link href="<?= $helpers->url('css/styles.css') ?>" rel="stylesheet">
